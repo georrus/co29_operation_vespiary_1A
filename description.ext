@@ -19,7 +19,7 @@ class Params
 	    title = "Время суток";
 	    values[] = {0,1};
 	    default = 0;
-	    texts[] = {"День","Ночь"};
+	    texts[] = {"День","Вечер"};
 	};
 	class par_weather
 	{
@@ -98,4 +98,13 @@ class Params
 	};
 };
 
+class CfgMusic
+{
+	tracks[]={};
 
+	class hadg
+	{
+		name = "";
+		sound[] = {"hadg.ogg", db+0, 1.0};
+	}
+	};

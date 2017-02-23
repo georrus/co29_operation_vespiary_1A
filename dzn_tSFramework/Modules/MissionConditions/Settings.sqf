@@ -40,5 +40,7 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
 // If you're Lim~, then you may need this. Uncomment to use.
 // if (isNil "ts_tasks") then { ts_tasks = 0 };
 
-MissionCondition1 = [ "WIN", "(tgt_hvt inArea evac_pnt) && {call fnc_CheckPlayersReturned}", "All objectives done" ];
+MissionCondition1 = [ "WIN", "(tgt_hvt in tgt_evac)", "All objectives done" ];
 MissionCondition2 = [ "WIPED", "{alive _x} count (call BIS_fnc_listPlayers) < 1", "All dead", 30 ];
+ 
+// && {call fnc_CheckPlayersReturned}
