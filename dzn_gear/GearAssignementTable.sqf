@@ -17,6 +17,6 @@ A "Platoon Leader"			TO "kit_merc_sl"	 KIT
 , A "1'3 Squad Leader"			TO "kit_merc_sl"	 KIT
 , A "RED - FTL"					TO "kit_merc_ftl"	 KIT
 , A "BLUE - FTL"				TO "kit_merc_ftl"	 KIT
-, A "Automatic Rifleman"		TO "kit_merc_ar"	 KIT
+, A "Automatic Rifleman"		TO "kit_merc_mg"	 KIT
 , A "Grenadier"					TO "kit_merc_gr"	 KIT
 , A "Rifleman"					TO "kit_merc_r"	 KIT

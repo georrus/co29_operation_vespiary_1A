@@ -1,15 +1,21 @@
 class CfgDebriefing
-{  
-    class WIN
-    {
-        title = "Задание выполнено";
-        subtitle = "Успех!";
-        description = "Задача выполнена";
-    };                  
-    class WIPED
-    {
-        title = "Задание провалено";
-        subtitle = "Все погибли!";
-        description = "Такие дела...";
-    };
+{
+	class WIN
+	{
+		title = "Миссия выполнена";
+		subtitle = "Восхитительный успех!";
+		description = "Объект HASIM направляется на военную базу в МОСУЛЕ в сопровождении наших сотрудников.";
+	};
+	class WIPED
+	{
+		title = "Миссия провалена";
+		subtitle = "Гибель коллег MRPI";
+		description = "При попытке прорыва все сотрудники погибли. ";
+	};
+	class FAIL
+	{
+		title = "Миссия провалена";
+		subtitle = "Объект HASIM погиб";
+		description = "Объект был смертельно ранен. Однако, часть советников эвакуировалась. ";
+	};
 };
